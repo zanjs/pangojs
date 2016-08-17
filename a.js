@@ -1,8 +1,7 @@
 var s = function (){
     var b=1;
     var c=2;
-    var data = new Date();
-    return b+c+data;
+    return b+c;
 }
 
 
