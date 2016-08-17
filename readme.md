@@ -27,7 +27,10 @@ var s2 = function (){
     return b+c+data;
 }
 
-console.log(s())  //此处是关键 会在控制台打印输出 可以多个 console.log()
+/* 
+ * 此处是关键 会在控制台打印输出 可以多个 console.log()
+ */
+console.log(s())  
 ```
 
 由于在 `window` 下 没有很好的 `js ` 脚本解析器
