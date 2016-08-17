@@ -20,7 +20,14 @@ var s = function (){
     return b+c;
 }
 
-console.log(s())
+var s2 = function (){
+    var b=1;
+    var c=3;
+    var data = new Date();
+    return b+c+data;
+}
+
+console.log(s())  //此处是关键 会在控制台打印输出 可以多个 console.log()
 ```
 
 由于在 `window` 下 没有很好的 `js ` 脚本解析器
