@@ -4,6 +4,8 @@
 
 ## 使用
 
+找到 gojs.exe 的路径，cmd 命令下执行 `gojs 后面跟js路径`
+
 
 ```
 gojs a.js
